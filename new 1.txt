@@ -1,0 +1,37 @@
+		<%-- 	<div class="span3">
+								<aui:select name="branchNameSearch" label="batch_name" id="addFeeStructureSearchbranchNameSearch"
+									cssClass="chosen span12"  showRequiredLabel="false">
+									<aui:option label="select" value=""></aui:option>
+								</aui:select>
+							</div> --%>
+							
+		<%--     <div class="span4">
+			<aui:select name="batchName" label="batch_name_req"
+				cssClass="span12" required="true" id="addFeeStructureBatchId" showRequiredLabel="false" onChange="getProgramByInstituteIdAndIntakeYear();">
+				<aui:option label="select" value=""></aui:option>
+			</aui:select>
+		</div> --%>
+		
+		/* 	 program=accessServiceManager.getProgramByProgramId(feeStructure.getProgramId());
+ *//* 	batch=accessServiceManager.getBatchByBatchId(feeStructure.getBatchId());
+ 
+ 
+ 	            		<aui:input name="feeStructureId" type="hidden" value="<%=feeStructureId %>"/>
+
+
+								String id = feeCategory.getValueCode();
+
+
+	public static final String FEE_STRUCTURE_DETAILS_ID = "feeStructureDetailsId";
+	public static final String YEARLY_PAYABLE_AMOUNT = "yearlyAmountPayable";
+	public static final String YEARLY_FEE_PATTERN_ID = "yearlyFeePatternId";
+		public static final String PAYMENT_END_DATE = "paymentEndDate";
+	public static final String PAYMENT_START_DATE = "paymentStartDate";
+	
+		public static final String YEARLY_WISE_FEE_PATTERN_DUPLICATE_FAILURE_KEY = "yearly_fee_pattern_duplicate_key";
+	public static final String YEARLY_FEE_PATTERN_SAVE_SUCCESS="yearly_fee_pattern_save_success";
+	public static final String YEARLY_WISE_FEE_PATTERN_FAILURE_KEY = "yearly_fee_pattern_failure_key";
+	public static final String YEARLY_FEES_CREATION_FAILED="yearly_fees_creation_failed";
+	public static final String DUPLICATE_FEE_STRUCTURE_ERROR_KEY = "duplicate_fee_structure_error_key";
+
+{yearlyFeePatternId=0, feeStructureDetailsId=0, year=2020, yearlyAmountPayable=12000.0, paymentStartDate=Sun Feb 12 00:00:00 GMT 2023, paymentDueDate=Sun Mar 12 00:00:00 GMT 2023, isActive=true, groupId=22097, companyId=20984, userId=57804, createDate=Mon May 08 13:15:54 GMT 2023, modifiedDate=null, modifiedBy=0}
